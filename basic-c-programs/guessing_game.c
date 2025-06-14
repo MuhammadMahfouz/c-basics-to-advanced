@@ -1,7 +1,7 @@
 //guessing game to guess the number 42
 #include <stdio.h>
 
-int mainn() {
+int main() {
     int guess;
     while(scanf("%d", &guess) != EOF) {
         if (guess == 42) {
